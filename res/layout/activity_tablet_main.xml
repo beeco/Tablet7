@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow" >
+
+        <TextView
+  		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/title_activity_main"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="45sp"
+        tools:context=".MainActivity"
+        android:id="@+id/title" 
+        />   
+    
+    
+    <fragment
+    	android:id="@+id/bottom_frag"
+		android:layout_height="match_parent"
+		class="com.beecocenter.tablet7.ScanFrag"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content" />
+    
+      <ImageView 
+   android:id="@+id/logo"
+   android:src="@drawable/beeco_logo_nobee"
+   android:layout_height="wrap_content"
+   android:layout_width="wrap_content"
+   android:layout_alignParentBottom="true"
+   android:layout_alignParentRight="true"
+   android:contentDescription="@string/logo"
+   />
+      
+   <ImageView 
+   android:id="@+id/welcomebee"
+   android:src="@drawable/beecobee17_y"
+   android:layout_height="wrap_content"
+   android:layout_width="wrap_content"
+   android:layout_centerVertical="false"
+   android:layout_centerHorizontal="false"
+   android:layout_alignParentLeft="true"
+   android:layout_marginLeft="80dp"
+   android:layout_marginTop="150dp"
+   android:contentDescription="@string/logo"
+   android:layout_marginBottom="20dp"
+   />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ScannerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ >
+    
+    <ImageButton  
+        android:id="@+id/ButtonScanner"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:src="@drawable/beeco_qr"
+        android:contentDescription="@string/button_scannertext"
+        android:layout_centerVertical="true"
+        android:onClick="onScanButton"></ImageButton> 
+    <Button  
+        android:id="@+id/ButtonScannerText"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ButtonScanner"  
+        android:src="@drawable/beeco_card_sm"
+        android:text="@string/button_scannertext"
+        android:textSize="30dp"
+        android:typeface="sans"
+        android:textColor="@color/blue"
+        android:onClick="onScanButton"
+        android:background="@color/white"
+        android:padding="@dimen/padding_small"
+        ></Button> 
+    </RelativeLayout>
+    

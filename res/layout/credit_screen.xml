@@ -1,0 +1,123 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow" >
+    
+        <fragment
+            android:id="@+id/bottom_frag"
+			android:layout_width="match_parent"
+			android:layout_height="104dp"
+			class="com.beecocenter.tablet7.BottomFrag"
+			android:layout_alignParentBottom="true"
+			 />
+      
+
+        <RelativeLayout 
+        android:id="@+id/BeePix"
+        android:layout_width="120dp"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="50dp"
+           >
+
+       <ImageView 
+   android:id="@+id/welcomebee"
+   android:src="@drawable/beecobee28_y"
+   android:contentDescription="@string/welcome"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   />
+    </RelativeLayout>      
+
+  <RelativeLayout 
+        android:id="@+id/BottomRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+        
+  <ImageView 
+   android:id="@+id/logo"
+   android:src="@drawable/beeco_logo_nobee"
+   android:layout_height="wrap_content"
+   android:layout_width="wrap_content"
+   android:layout_alignParentBottom="true"
+   android:layout_alignParentRight="true"
+   android:contentDescription="@string/welcome"
+   />
+  </RelativeLayout> 
+
+        <TextView
+    android:text="@string/pollution_1"
+    android:textSize="35dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="false"
+    android:layout_marginTop="170dp"
+    android:textStyle="bold"
+    android:typeface="sans"
+    android:id="@+id/p1"
+    android:textColor="@color/blue"
+    />
+                <TextView
+    android:text="@string/pollution_2"
+    android:textSize="35dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="false"
+    android:typeface="sans"
+        android:textStyle="bold"
+    android:id="@+id/p2"
+    android:layout_below="@id/p1"
+    android:textColor="@color/blue"
+    />
+                        <TextView
+    android:text="@string/pollution_3"
+    android:textSize="35dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="false"
+    android:layout_below="@id/p2"
+        android:textStyle="bold"
+    android:typeface="sans"
+    android:id="@+id/p3"
+    android:textColor="@color/blue"
+    />
+        
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+    android:background="@color/yellow"
+ >
+     
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/thankyou"
+    android:textColor="@color/blue"
+    android:textStyle="bold"
+    android:textSize="40dp"
+    android:layout_centerHorizontal="true"
+   />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/earned"
+    android:textColor="@color/blue"
+    android:textStyle="bold"
+    android:textSize="40dp"
+    android:layout_below="@id/thankyou"
+    android:layout_centerHorizontal="true"
+   />
+
+        
+    </RelativeLayout>
+
+</RelativeLayout>
+    

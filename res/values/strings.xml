@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">BEECOSMART REWARDS PROGRAM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_tablet_main">TabletMain</string>
+    <string name="button_scannertext">Touch here\n to scan your card</string>
+    <string name="title_activity_main">Thank you for visiting Vic\'s Espresso!</string>
+    <string name="logo">Healthy, Clean, and Green</string>
+    <string name="button_restart_text">Touch Here\n to Restart</string>
+    <string name="hello_leslie">THANK YOU!</string>
+    <string name="welcome">Scan your BEECO Membership Card\n to Earn Rewards</string>
+    <string name="bag_1">1</string>
+    <string name="bag_2">2</string>
+	<string name="bag_3">3</string>
+	<string name="bag_4">4+</string>
+	<string name="howmanybags_3">Press the number of reusable bags you used today:</string>
+	<string name="rewards">To earn your BeecoSmart Rewards</string>
+	<string name="pollution_1">Your efforts to shop</string>
+	<string name="pollution_2">with reusable bags</string>
+	<string name="pollution_3">help to reduce pollution!</string>
+	<string name="button_check_text">Touch Here to Check\n Your BeecoBucks</string>
+</resources>

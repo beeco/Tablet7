@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow" >
+<TextView
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:text="@string/hello_leslie"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="45sp"
+        tools:context=".MainActivity" />
+  
+
+<RelativeLayout 
+        android:id="@+id/BottomRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+    <Button  
+        android:id="@+id/Button01"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:text="@string/button_restart_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:maxHeight="104dp"  
+        android:textSize="40dp"
+        android:textColor="@color/blue"
+        android:typeface="sans"
+        android:background="@color/white"
+        android:onClick="onRestartButton"></Button> 
+        
+       <ImageView 
+   android:id="@+id/welcomebee"
+   android:src="@drawable/beecobee25_sm_y"
+   android:layout_height="wrap_content"
+   android:layout_width="wrap_content"
+   android:layout_centerVertical="false"
+   android:layout_centerHorizontal="false"
+   android:layout_alignParentTop="true"
+   android:layout_alignParentLeft="true"
+   android:contentDescription="@string/welcome"
+   android:layout_marginLeft="400dp"
+   android:layout_marginTop="300dp"
+   />
+       
+  <ImageView 
+   android:id="@+id/logo"
+   android:src="@drawable/beeco_logo_nobee"
+   android:layout_height="wrap_content"
+   android:layout_width="wrap_content"
+   android:layout_alignParentBottom="true"
+   android:layout_alignParentRight="true"
+   android:contentDescription="@string/welcome"
+   />
+  </RelativeLayout>  
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/buttonrow"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="10dp"
+ >
+
+        <Button  
+        android:id="@+id/Bag01"
+        android:tag="1"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:text="@string/bag_1" 
+        android:textSize="80dp"
+        android:textColor="@color/blue"
+        android:typeface="sans"
+        android:onClick="onBagButton"
+        android:layout_marginLeft="330dp"
+        ></Button> 
+        <Button  
+        android:id="@+id/Bag02"
+        android:tag="2" 
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:text="@string/bag_2" 
+        android:textSize="80dp"
+        android:textColor="@color/blue"
+        android:typeface="sans"
+        android:onClick="onBagButton"
+        />
+        <Button  
+        android:id="@+id/Bag03"
+        android:tag="3"   
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:text="@string/bag_3" 
+        android:textSize="80dp"
+        android:textColor="@color/blue"
+        android:typeface="sans"
+        android:onClick="onBagButton"></Button>
+        <Button  
+        android:id="@+id/Bag04"
+        android:tag="4"   
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:text="@string/bag_4" 
+        android:textSize="80dp"
+        android:textColor="@color/blue"
+        android:typeface="sans"
+        android:onClick="onBagButton"></Button> 
+</LinearLayout>
+
+<RelativeLayout    android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+	android:maxWidth="500dp"
+	        android:layout_above="@id/buttonrow"
+	android:layout_centerHorizontal="true"
+	        android:id="@+id/hmb3" >
+        
+   <TextView
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+        android:text="@string/howmanybags_3"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="38sp"
+  />
+
+   </RelativeLayout>
+   
+<LinearLayout    android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+	android:maxWidth="500dp"
+	        android:layout_above="@id/hmb3"
+	android:layout_centerHorizontal="true"
+	        android:id="@+id/hmb2" >
+   
+<TextView
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+        android:text="@string/rewards"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="40sp"
+  />
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
